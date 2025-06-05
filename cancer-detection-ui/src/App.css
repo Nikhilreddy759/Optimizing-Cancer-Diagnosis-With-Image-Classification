@@ -1,0 +1,68 @@
+/* body {
+  background-image: url("D:/MultiCancer/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-card {
+  max-width: 550px;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+/* .form-card:hover {
+  transform: scale(1.01);
+} */
+
+.btn-gradient-primary {
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  border: none;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.btn-gradient-primary:hover {
+  background: linear-gradient(135deg, #375ab8, #17a673);
+  color: white;
+}
+
+select.form-select,
+input.form-control {
+  background-color: #f1f3f5;
+  border: 1px solid #ced4da;
+}
+
+select.form-select:focus,
+input.form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  background-color: #fff;
+}
+
+.prediction-card {
+  background-color: #ffffff;
+  border: 1px solid #e3e6f0;
+  transition: box-shadow 0.3s ease;
+}
+
+.prediction-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.prediction-icon {
+  font-size: 1.8rem;
+  background: #e6f4ea;
+  border-radius: 50%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

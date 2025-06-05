@@ -1,0 +1,5 @@
+colon_aca
+colon_bnt
+lung_aca
+lung_bnt
+lung_scc

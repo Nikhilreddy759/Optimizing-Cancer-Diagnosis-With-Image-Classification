@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancer Classification</title>
+</head>
+<body>
+    <h1>Cancer Classification</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+    <h2>Prediction Result</h2>
+    <p><strong>Cancer Type:</strong> {{ prediction.cancer_type }}</p>
+    <p><strong>Predicted Class:</strong> {{ prediction.class_name }}</p>
+    <p><strong>Confidence Score:</strong> {{ prediction.confidence }}</p>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,2 @@
+kidney_normal
+kidney_tumor
